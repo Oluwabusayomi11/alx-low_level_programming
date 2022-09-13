@@ -2,9 +2,9 @@
 
 /**
  * print_sign - prints the sign of a number
- * @c: An input character
- * Return: 1 if number is positive, 0 if number is 0
- * and -1 if number is negative
+ * @n: An input character
+ * Return: 1 if number is positive, o if number is 0, or
+ * -1 if number is negative
  */
 int print_sign(int n)
 {
