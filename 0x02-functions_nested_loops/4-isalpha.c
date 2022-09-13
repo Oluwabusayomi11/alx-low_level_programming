@@ -2,6 +2,7 @@
 
 /**
  * _isalpha - checks if the character is a letter
+ * @c: An input character
  * Return: 1 if true,0 otherwise
  */
 int _isalpha(int c)
@@ -11,9 +12,9 @@ int _isalpha(int c)
 
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		for (upper = 'A'; upper <='Z'; upper++)
+		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-			if (c == lower || c ==upper)
+			if (c == lower || c == upper)
 				isLetter = 1;
 		}
 	}
