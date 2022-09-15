@@ -2,12 +2,19 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - prints largest prime factor
  *
- * Return: Always 0.
+ * Return: largest prime factor
  */
 int main(void)
 {
-	printf("50829599\n");
+	unsigned long int i = 3, n = 612852475143;
+
+	for (; i < 12057; i += 2)
+	{
+		while (n % i == 0 && n != i)
+			n /= i;
+	}
+	printf("%lu\n", n);
 	return (0);
 }
