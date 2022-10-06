@@ -7,7 +7,7 @@
  * @max: maximum value
  *
  * Return: pointer to newly created array
- * 	if min>max,return NULL
+ * if min>max,return NULL
  */
 
 int *array_range(int min, int max)
